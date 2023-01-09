@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ekran {
+    background-color: #080001;
+    height: 120px;
+    width: 155px;
+    color: #F94F6D;
+}
+
+.wynik {
+    font-size: 90px;
+}
+
+.nazwa{
+    font-size: 40px;
+}
+
+.przyciski {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 26px;
+}
+
+button {
+    background-color: #1B244A;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+}
